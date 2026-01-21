@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "update.mode": "none",
 
     "vim.normalModeKeyBindings": [
@@ -14,6 +14,12 @@
         {
             "before": ["<leader>", "s", "f"],
             "commands": ["workbench.action.quickOpen"]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<leader>", "g", "d"],
+            "commands": ["editor.action.revealDefinition"]
         }
     ],
 
@@ -24,6 +30,74 @@
     "workbench.layoutControl.enabled": false,
     "chat.commandCenter.enabled": false,
     "workbench.editor.showTabs": "none",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.autoClosingComments": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.formatOnType": false,
+    "editor.autoClosingQuotes": "never",
+    "vim.smartRelativeLine": true,
+    "editor.acceptSuggestionOnFocusChange": false,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "57204EE3-D3EF-484A-8255-C44337F4F14C"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "localhost",
+            "database": "",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "groupId": "57204EE3-D3EF-484A-8255-C44337F4F14C",
+            "id": "F474E34E-00B0-4367-B0EA-6C62E14CDEB4",
+            "user": "",
+            "password": "",
+            "profileSource": 0
+        },
+        {
+            "authenticationType": "Integrated",
+            "connectTimeout": 30,
+            "applicationName": "vscode-mssql",
+            "applicationIntent": "ReadWrite",
+            "server": "(localdb)\\mssqllocaldb",
+            "database": "",
+            "commandTimeout": 30,
+            "encrypt": "Mandatory",
+            "profileName": "",
+            "groupId": "57204EE3-D3EF-484A-8255-C44337F4F14C",
+            "id": "ADF5075A-4343-4EE0-BF92-C744EC696F8C",
+            "user": "",
+            "password": "",
+            "profileSource": 0
+        }
+    ],
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "chat.agent.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.autoIndentOnPasteWithinString": false,
+    "[csharp]": {
+        "editor.formatOnType": false
+    },
+    "editor.suggest.showReferences": false,
+    "editor.codeLens": false,
+    "mssql.enableQueryHistoryCapture": true,
+    "editor.detectIndentation": false,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontFamily": "Hasklug Nerd Font Mono, Hasklug Nerd Font, Hasklug Nerd Font Propo",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "explorer.fileNesting.expand": false,
+    "explorer.compactFolders": false
 }
 
